@@ -1,7 +1,7 @@
 ﻿using NOP.COMMERCE.WEB.AT.GUI.PageObject;
 using TechTalk.SpecFlow;
 
-namespace NOP.COMMERCE.WEB.AT.StepDefinitions
+namespace NOP.COMMERCE.WEB.AT.GUI.Test.Steps
 {
     [Binding]
     public class UrlsInitializer

@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace NOP.COMMERCE.WEB.AT.Specifications.NopCommerceInternal
+namespace NOP.COMMERCE.WEB.AT.GUI.Test.Features.NopCommerceInternal
 {
     using TechTalk.SpecFlow;
     using System;
@@ -67,7 +67,7 @@ namespace NOP.COMMERCE.WEB.AT.Specifications.NopCommerceInternal
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "Functionality of nopCommerce internal portal login page")))
             {
-                global::NOP.COMMERCE.WEB.AT.Specifications.NopCommerceInternal.FunctionalityOfNopCommerceInternalPortalLoginPageFeature.FeatureSetup(null);
+                global::NOP.COMMERCE.WEB.AT.GUI.Test.Features.NopCommerceInternal.FunctionalityOfNopCommerceInternalPortalLoginPageFeature.FeatureSetup(null);
             }
         }
         
