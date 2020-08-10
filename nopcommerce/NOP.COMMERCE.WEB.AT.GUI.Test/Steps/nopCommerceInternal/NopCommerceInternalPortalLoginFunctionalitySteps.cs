@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NOP.COMMERCE.WEB.AT.GUI.PageObject.nopCommerceInternal;
 using TechTalk.SpecFlow;
 
-namespace NOP.COMMERCE.WEB.AT.StepDefinitions.nopCommerceInternal
+namespace NOP.COMMERCE.WEB.AT.GUI.Test.Steps.nopCommerceInternal
 {
     [Binding]
     public class NopCommerceInternalPortalLoginFunctionalitySteps

@@ -3,7 +3,7 @@ using NOP.COMMERCE.WEB.AT.GUI.PageObject;
 using OpenQA.Selenium.Chrome;
 using TechTalk.SpecFlow;
 
-namespace NOP.COMMERCE.WEB.AT.StepDefinitions
+namespace NOP.COMMERCE.WEB.AT.GUI.Test.Hooks
 {
     [Binding]
     public class WebDriverSupport
