@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NOP.COMMERCE.WEB.AT.Test", "NOP.COMMERCE.WEB.AT.Test.csproj", "{90C5295C-1D75-48E3-B701-B3A7FE61DDB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NOP.COMMERCE.WEB.AT.GUI.PageObject", "NOP.COMMERCE.WEB.AT.GUI.PageObject\NOP.COMMERCE.WEB.AT.GUI.PageObject.csproj", "{20511ECF-17AE-4A97-8254-84F097672DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NOP.COMMERCE.WEB.AT.GUI.FlowBuilder", "NOP.COMMERCE.WEB.AT.GUI.FlowBuilder\NOP.COMMERCE.WEB.AT.GUI.FlowBuilder.csproj", "{4D9B7EAB-C7FB-4CFB-829B-DD4FFA721E03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90C5295C-1D75-48E3-B701-B3A7FE61DDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C5295C-1D75-48E3-B701-B3A7FE61DDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C5295C-1D75-48E3-B701-B3A7FE61DDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C5295C-1D75-48E3-B701-B3A7FE61DDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20511ECF-17AE-4A97-8254-84F097672DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20511ECF-17AE-4A97-8254-84F097672DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20511ECF-17AE-4A97-8254-84F097672DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20511ECF-17AE-4A97-8254-84F097672DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D9B7EAB-C7FB-4CFB-829B-DD4FFA721E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D9B7EAB-C7FB-4CFB-829B-DD4FFA721E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D9B7EAB-C7FB-4CFB-829B-DD4FFA721E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D9B7EAB-C7FB-4CFB-829B-DD4FFA721E03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
