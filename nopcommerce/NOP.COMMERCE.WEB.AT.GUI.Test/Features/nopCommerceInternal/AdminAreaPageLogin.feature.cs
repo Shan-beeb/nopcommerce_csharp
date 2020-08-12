@@ -252,7 +252,7 @@ namespace NOP.COMMERCE.WEB.AT.GUI.Test.Features.NopCommerceInternal
 #line hidden
         }
         
-        public virtual void ToCheckNopCommerceInternalPortalLoginPageWithInvalidPassword(string email, string password, string[] exampleTags)
+        public virtual void ToCheckNopCommerceInternalPortalLoginPageWithWrongPassword(string email, string password, string[] exampleTags)
         {
             string[] @__tags = new string[] {
                     "sad"};
@@ -264,7 +264,7 @@ namespace NOP.COMMERCE.WEB.AT.GUI.Test.Features.NopCommerceInternal
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("email", email);
             argumentsOfScenario.Add("password", password);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("To check nopCommerce internal portal login page with invalid password", null, tagsOfScenario, argumentsOfScenario);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("To check nopCommerce internal portal login page with wrong password", null, tagsOfScenario, argumentsOfScenario);
 #line 33
   this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -303,17 +303,17 @@ namespace NOP.COMMERCE.WEB.AT.GUI.Test.Features.NopCommerceInternal
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("To check nopCommerce internal portal login page with invalid password: admin@your" +
-            "store.com")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("To check nopCommerce internal portal login page with wrong password: admin@yourst" +
+            "ore.com")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Functionality of nopCommerce internal portal login page")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("sad")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "admin@yourstore.com")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:email", "admin@yourstore.com")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:password", "wrongpassword")]
-        public virtual void ToCheckNopCommerceInternalPortalLoginPageWithInvalidPassword_AdminYourstore_Com()
+        public virtual void ToCheckNopCommerceInternalPortalLoginPageWithWrongPassword_AdminYourstore_Com()
         {
 #line 33
-  this.ToCheckNopCommerceInternalPortalLoginPageWithInvalidPassword("admin@yourstore.com", "wrongpassword", ((string[])(null)));
+  this.ToCheckNopCommerceInternalPortalLoginPageWithWrongPassword("admin@yourstore.com", "wrongpassword", ((string[])(null)));
 #line hidden
         }
         

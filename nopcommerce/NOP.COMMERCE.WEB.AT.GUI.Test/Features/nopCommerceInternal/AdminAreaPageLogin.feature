@@ -30,7 +30,7 @@
       | wrongemail3@yourstore.com | admin    |
 
   @sad
-  Scenario Outline: To check nopCommerce internal portal login page with invalid password
+  Scenario Outline: To check nopCommerce internal portal login page with wrong password
     Given a user wants to login to nopCommerce internal portal
     When a user enters <email> and <password> as credentials
     And a user clicks on submit button
