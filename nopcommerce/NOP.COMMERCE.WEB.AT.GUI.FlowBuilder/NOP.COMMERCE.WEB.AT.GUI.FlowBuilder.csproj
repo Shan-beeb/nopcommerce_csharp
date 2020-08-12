@@ -6,6 +6,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\NOP.COMMERCE.WEB.AT.GUI.PageObject\NOP.COMMERCE.WEB.AT.GUI.PageObject.csproj" />
+      <ProjectReference Include="..\NOP.COMMERCE.WEB.AT.GUI.Utils\NOP.COMMERCE.WEB.AT.GUI.Utils.csproj" />
     </ItemGroup>
 
 </Project>

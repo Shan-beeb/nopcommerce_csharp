@@ -1,5 +1,6 @@
 ﻿using System;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.Extensions;
 using OpenQA.Selenium.Support.UI;
 
 namespace NOP.COMMERCE.WEB.AT.GUI.PageObject
@@ -13,6 +14,12 @@ namespace NOP.COMMERCE.WEB.AT.GUI.PageObject
         {
             _driver = driver;
             _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(maximumWaitingTime));
+        }
+
+        public byte[] GetScreenShotAsByteArray()
+        {
+            var screenshot = ((ITakesScreenshot) _driver).GetScreenshot();
+            return screenshot.AsByteArray;
         }
 
         public IWebElement FindElement(By @by) => _driver.FindElement(by);
